@@ -1,5 +1,5 @@
-
 import './App.css'
+import Btn from './components/Btn'
 import Kaif from './components/Kaif'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   <>
   <h1>React with Vite</h1>
   <Kaif/>
+  <Btn/>
   </>
   )
 }
