@@ -41,6 +41,7 @@ function App() {
 
   return (
    <>
+      <div>
       <div className='flex items-center justify-center h-screen'>
       <h1  className='mx-12 '>Password Generator</h1>
       <div className='bg-black text-white rounded-xl mx-12 py-12 '>
@@ -50,6 +51,7 @@ function App() {
       <input type='range' className='mx-6' value={length} min={8} max={20}  onChange={(e)=>{setLength(e.target.value)}}/> length {length}
       <input type="checkbox" value={numberAllowed} name="numberAllowed"  onChange={()=>{setNumberAllowed(prev=>!prev)}}/> Number
       <input type="checkbox" value={numberAllowed} name="charAllowed" id="" onChange={()=>{setCharAllowed(prev=>!prev)}}/> Character
+      </div>
       </div>
       </div>
    
